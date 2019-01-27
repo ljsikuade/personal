@@ -4,9 +4,9 @@
   "description": "My website",
   "scripts": {
     "dev": "webpack --mode development",
-    "build": "npm-run-all --parallel prod demon",
-    "prod": "webpack --mode production",
-    "demon": "node server.js"
+    "build": "webpack --mode production",
+    "demon": "node server.js",
+    "heroku-postbuild": "npm run build"
   },
   "author": "Luke",
   "license": "ISC",
