@@ -4,6 +4,7 @@
   "description": "My website",
   "scripts": {
     "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "demon": "nodemon server.js"
   },
   "author": "Luke",
