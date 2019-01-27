@@ -4,8 +4,9 @@
   "description": "My website",
   "scripts": {
     "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "demon": "nodemon server.js"
+    "build": "npm-run-all --parallel prod demon",
+    "prod": "webpack --mode production",
+    "demon": "node server.js"
   },
   "author": "Luke",
   "license": "ISC",
@@ -42,6 +43,7 @@
     "image-webpack-loader": "^4.4.0",
     "node-sass": "^4.9.1",
     "nodemon": "^1.18.6",
+    "npm-run-all": "^4.1.5",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.12.0",
