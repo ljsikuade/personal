@@ -22,7 +22,7 @@ li {
   display: flex;
   background-image: url("../../static/images/enigma_back.jpg");
   background-size: cover;
-  position: absolute;
+  flex: 3;
   width: 100%;
   z-index: 1;
 }
@@ -515,6 +515,11 @@ li {
   color: #3aadfb;
   min-height: 200px;
   font-size: 1.5em;
+  flex: 1;
+  z-index: 3;
+  -webkit-box-shadow: 0px 8px 42px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 8px 42px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 8px 42px 5px rgba(0, 0, 0, 0.75);
 }
 .cut-in-details {
   display: flex;
