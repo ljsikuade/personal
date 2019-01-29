@@ -58,7 +58,7 @@ class App extends React.Component {
   render() {
     return (
       <main>
-        <section className="content">
+        <section id="wrap" className="content">
           <CSSTransition
             in={this.state.hideProjects}
             timeout={700}

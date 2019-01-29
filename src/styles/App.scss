@@ -646,4 +646,10 @@ li {
     left: 0;
     order: 1;
   }
+  #wrap .cut-in {
+    min-height: 120px;
+  }
+  .cut-in .cut-down-exit-done {
+    max-height: 120px;
+  }
 }
